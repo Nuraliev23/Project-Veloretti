@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
         {children}
         <footer>
           <section className="bg-[#3d3c3c] text-[white] py-[32px]">
-            <div className="md:flex-row flex max-w-[1200px] mx-auto justify-between items-center flex-col gap-[16px]">
+            <div className="md:flex-row flex max-w-[1200px] mx-auto justify-between items-center flex-col gap-[16px] ">
               <p className="md:w-[60%] w-[90%]">
                 Ready to take the Electric Ivy or Ace for a spin? Electric test
                 rides are now available in Amsterdam, Amstelveen, Abcoude,
@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
             </div>
           </section>
           <section className="bg-[black] text-[white] py-[32px]">
-            <div className="max-w-[1200px] mx-auto flex justify-between">
+            <div className="max-w-[1200px] mx-auto flex justify-between flex-col md:flex-row md:w-full w-[90%] mx-auto">
               <div>
                 <h2 className="text-[25px] pb-[10px]">Explorer</h2>
                 <p className="text-[#b3b2b2]">Electric bikes</p>
