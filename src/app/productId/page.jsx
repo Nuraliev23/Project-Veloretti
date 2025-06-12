@@ -24,12 +24,12 @@ const ProductsById = () => {
             alt="man"
           />
         </div>
-        <div className="flex flex-col gap-[16px]  justify-center">
-          <div className="flex justify-between">
+        <div className="flex flex-col gap-[16px]  justify-center ">
+          <div className="flex justify-between ">
             <p>Electric Ivy</p>
             <p>€ 3.299</p>
           </div>
-          <div className="flex justify-between  items-center">
+          <div className="flex justify-between  items-center gap-[24px] flex-col md:flex-row">
             <div className="bg-[#EBEDEE]">
               <Image
                 className="md:w-[30%] w-[90%] mx-auto "
@@ -60,7 +60,7 @@ const ProductsById = () => {
             advanced technology, and safety features. Rider height: between 164
             and 184cm.
           </p>
-          <p className="bg-[#e1d8d8] rounded-3xl p-[10px_30px] flex justify-start items-start w-[30%]">
+          <p className="bg-[#e1d8d8] rounded-3xl p-[10px_30px] flex justify-start items-start md:w-[30%] w-[80%]">
             Scroll to Specifications
           </p>
           <p className="bg-[black] rounded-3xl text-white text-center py-[10px]">
@@ -76,17 +76,19 @@ const ProductsById = () => {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/velik8.png')" }}
       >
-        <h1 className="md:w-[40%] w-[90%] max-w-[1200px] text-[70px] text-[white] ">
-          Removable long- range battery
-        </h1>
-        <p className="md:w-[30%] w-[90%] max-w-[1200px]  text-[white]">
-          Recharge anytime, anywhere. Our in-house developed battery is built to
-          go the distance. With a powerful 540 Wh and an impressive range of up
-          to 120km, you'll have the freedom to explore without worrying about
-          running out of power. And if you do need to recharge, our removable
-          and smart battery pack can be easily detached and charged with any
-          electrical outlet.
-        </p>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start">
+          <h1 className="md:w-[40%] w-[90%] max-w-[1200px] text-[70px] text-[white] ">
+            Removable long- range battery
+          </h1>
+          <p className="md:w-[30%] w-[90%] max-w-[1200px]  text-[white]">
+            Recharge anytime, anywhere. Our in-house developed battery is built
+            to go the distance. With a powerful 540 Wh and an impressive range
+            of up to 120km, you'll have the freedom to explore without worrying
+            about running out of power. And if you do need to recharge, our
+            removable and smart battery pack can be easily detached and charged
+            with any electrical outlet.
+          </p>
+        </div>
       </section>
       <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col md:flex-row">
         <div className="flex flex-col gap-[16px] md:w-[35%] w-[90%]">
@@ -104,7 +106,7 @@ const ProductsById = () => {
         </div>
         <Image className="" src={woman} width={0} height={0} alt="man" />
       </section>
-      <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col md:flex-row">
+      <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col-reverse md:flex-row">
         <Image className="" src={woman2} width={0} height={0} alt="man" />
         <div className="flex flex-col gap-[16px] md:w-[35%] w-[90%]">
           <h2 className="text-[50px]">Ivy Two</h2>
@@ -124,19 +126,21 @@ const ProductsById = () => {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/velik9.png')" }}
       >
-        <h1 className="md:w-[40%] w-[90%] max-w-[1200px] text-[70px] text-[white] ">
-          Built-in display
-        </h1>
-        <p className="md:w-[30%] w-[90%] max-w-[1200px]  text-[white]">
-          Discover a new level of convenience and control with our elegantly
-          designed integrated display. Everything you need to manage your ride
-          is right at your fingertips, from customizing your bike's settings to
-          navigating unfamiliar parts of the city. And with seamless integration
-          to our app, you can access all your data and ride information with
-          ease.
-        </p>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start">
+          <h1 className="md:w-[40%] w-[90%] max-w-[1200px] text-[70px] text-[white] ">
+            Built-in display
+          </h1>
+          <p className="md:w-[30%] w-[90%] max-w-[1200px]  text-[white]">
+            Discover a new level of convenience and control with our elegantly
+            designed integrated display. Everything you need to manage your ride
+            is right at your fingertips, from customizing your bike's settings
+            to navigating unfamiliar parts of the city. And with seamless
+            integration to our app, you can access all your data and ride
+            information with ease.
+          </p>
+        </div>
       </section>
-      <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col md:flex-row">
+      <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col-reverse md:flex-row">
         <div className="flex flex-col gap-[16px] md:w-[35%] w-[90%]">
           <h2 className="text-[50px]">Enviolo® automated gears</h2>
           <p className="text-[#808080dc]">
@@ -163,7 +167,7 @@ const ProductsById = () => {
           </p>
         </div>
       </section>
-      <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col md:flex-row">
+      <section className="flex max-w-[1440px] mx-auto justify-between items-center flex-col-reverse md:flex-row">
         <div className="flex flex-col gap-[16px] md:w-[35%] w-[90%]">
           <h2 className="text-[50px]">LED brake light</h2>
           <p className="text-[#808080dc]">
@@ -181,17 +185,19 @@ const ProductsById = () => {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/velik10.png')" }}
       >
-        <h1 className="md:w-[40%] w-[90%] max-w-[1200px] text-[70px] text-[white] ">
-          Osram® precision light
-        </h1>
-        <p className="md:w-[30%] w-[90%] max-w-[1200px]  text-[white]">
-          Safety is fundamental when it comes to biking. We've designed the
-          precision front light with precision and clarity in mind. From dark
-          roads to challenging city terrain, the precision front light, with its
-          strong beam, is designed to help you navigate with ease and safety. No
-          matter the environment, we make sure we provide you with the
-          visibility you need.
-        </p>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start">
+          <h1 className="md:w-[40%] w-[90%] max-w-[1200px] text-[70px] text-[white] ">
+            Osram® precision light
+          </h1>
+          <p className="md:w-[30%] w-[90%] max-w-[1200px]  text-[white]">
+            Safety is fundamental when it comes to biking. We've designed the
+            precision front light with precision and clarity in mind. From dark
+            roads to challenging city terrain, the precision front light, with
+            its strong beam, is designed to help you navigate with ease and
+            safety. No matter the environment, we make sure we provide you with
+            the visibility you need.
+          </p>
+        </div>
       </section>
       <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
         <Image
@@ -248,12 +254,14 @@ const ProductsById = () => {
       </section>
       <section className="max-w-[1400px] mx-auto">
         <h2 className="text-[50px]">All in the details.</h2>
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-wrap w-[90%] mx-auto md:flex-nowrap">
           <div className="flex flex-col gap-[16px]">
             <h2 className="text-[25px]">Frame</h2>
             <div>
               <p className="font-bold">Frame</p>
-              <p className="text-[#808080dc]">Coated aluminium with integrated battery case</p>
+              <p className="text-[#808080dc]">
+                Coated aluminium with integrated battery case
+              </p>
             </div>
             <div>
               <p className="font-bold">Paint</p>
@@ -281,7 +289,9 @@ const ProductsById = () => {
             </div>
             <div>
               <p className="font-bold">Battery</p>
-              <p className="text-[#808080dc]">Removable Smart Battery / 36Vdc, 540 WH 60-120 km range</p>
+              <p className="text-[#808080dc]">
+                Removable Smart Battery / 36Vdc, 540 WH 60-120 km range
+              </p>
             </div>
             <div>
               <p className="font-bold">Gears</p>
@@ -295,19 +305,27 @@ const ProductsById = () => {
             </div>
             <div>
               <p className="font-bold">Brakes</p>
-              <p className="text-[#808080dc]">Shimano® MT200 hydraulic disc brakes</p>
+              <p className="text-[#808080dc]">
+                Shimano® MT200 hydraulic disc brakes
+              </p>
             </div>
             <div>
               <p className="font-bold">Tires</p>
-              <p className="text-[#808080dc]">Performance Plus tire / 50-622 / Anti Puncture level</p>
+              <p className="text-[#808080dc]">
+                Performance Plus tire / 50-622 / Anti Puncture level
+              </p>
             </div>
             <div>
               <p className="font-bold">Belt</p>
-              <p className="text-[#808080dc]">Gates® Carbon Beltdrive / 122T CDX</p>
+              <p className="text-[#808080dc]">
+                Gates® Carbon Beltdrive / 122T CDX
+              </p>
             </div>
             <div>
               <p className="font-bold">Light front</p>
-              <p className="text-[#808080dc]">Osram® Precision front light LED, StVZO approved</p>
+              <p className="text-[#808080dc]">
+                Osram® Precision front light LED, StVZO approved
+              </p>
             </div>
             <div>
               <p className="font-bold">Light rear</p>
@@ -322,7 +340,9 @@ const ProductsById = () => {
             </div>
             <div>
               <p className="font-bold">Front carrier</p>
-              <p className="text-[#808080dc]">AVS front carrier 480g Carrying Capacity: 10 kg (22 lb)</p>
+              <p className="text-[#808080dc]">
+                AVS front carrier 480g Carrying Capacity: 10 kg (22 lb)
+              </p>
             </div>
             <div>
               <p className="font-bold">Rear carrier</p>
@@ -330,11 +350,15 @@ const ProductsById = () => {
             </div>
             <div>
               <p className="font-bold">Basket</p>
-              <p className="text-[#808080dc]">AVS basket 1.33kg Carrying Capacity: 10 kg (22 lb)</p>
+              <p className="text-[#808080dc]">
+                AVS basket 1.33kg Carrying Capacity: 10 kg (22 lb)
+              </p>
             </div>
             <div>
               <p className="font-bold">Cargo basket</p>
-              <p className="text-[#808080dc]">AVS cargo basket 1.7kg Carrying Capacity: 10 kg (22 lb)</p>
+              <p className="text-[#808080dc]">
+                AVS cargo basket 1.7kg Carrying Capacity: 10 kg (22 lb)
+              </p>
             </div>
           </div>
         </div>

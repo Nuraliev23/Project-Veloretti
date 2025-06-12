@@ -1,6 +1,5 @@
 import React from "react";
 
-import about from "../../../public/about.jpg";
 import man1 from "../../../public/Wrapper.png";
 import zin from "../../../public/zin.png";
 import img1 from "../../../public/Image Span.png";
@@ -13,12 +12,12 @@ const About = () => {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/about.jpg')" }}
       >
-        k1
-        <p className="max-w-[1200px]  text-[white]">VELORETTI BUSINESS</p>
-        <h1 className="max-w-[1200px] text-[70px] text-[white] ">About us</h1>
-        <p className="max-w-[1200px]  text-[white]">Forever Forward.</p>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start w-full">
+          <p className="max-w-[1200px]  text-[white]">VELORETTI BUSINESS</p>
+          <h1 className="max-w-[1200px] text-[70px] text-[white] ">About us</h1>
+          <p className="max-w-[1200px]  text-[white]">Forever Forward.</p>
+        </div>
       </section>
-
       <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
         <Image
           className="md:w-[40%] w-[90%]"
@@ -69,21 +68,24 @@ const About = () => {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-end justify-center "
         style={{ backgroundImage: "url('/velik4.jpg')" }}
       >
-        <h1 className="max-w-[1200px] text-[70px] text-[white] ">
-          Made for you
-        </h1>
-        <p className="w-[30%] text-[white]">
-          Elevate your ride with a bicycle that mirrors your unique style and
-          personality. From an Ace Two electric bike with the latest technology
-          packed into a minimalist design, or a bright yellow Berlin for those
-          who like to ride light and have a craving for nostalgia. Our diverse
-          range of models and colours cater to riders of all kinds.
-        </p>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center md:items-end justify-center text-start">
+          <h1 className=" text-[70px] text-[white] ">
+            Made for you
+          </h1>
+          <p className="md:w-[30%] w-[80%] text-[white]">
+            Elevate your ride with a bicycle that mirrors your unique style and
+            personality. From an Ace Two electric bike with the latest
+            technology packed into a minimalist design, or a bright yellow
+            Berlin for those who like to ride light and have a craving for
+            nostalgia. Our diverse range of models and colours cater to riders
+            of all kinds.
+          </p>
+        </div>
       </section>
       <section className=" max-w-[1200px] mx-auto justify-between my-[80px] items-center">
         <h2>Explore Our Bikes</h2>
-        <div className="flex max-w-[1200px] mx-auto justify-between items-center flex-col md:flex-row">
-          <div className="bg-[#EBEDEE] w-[48%] p-[15px] rounded-2xl">
+        <div className="flex max-w-[1200px] mx-auto justify-between items-center flex-col md:flex-row gap-[24px]">
+          <div className="bg-[#EBEDEE] md:w-[48%] w-[90%] p-[15px] rounded-2xl">
             <div className="flex justify-between">
               <p>Electric Ace</p>
               <p>€69,07 NET/MONTH</p>
@@ -100,7 +102,7 @@ const About = () => {
               <p>Learn more</p>
             </div>
           </div>
-          <div className="bg-[#EBEDEE] w-[48%] p-[15px]  rounded-2xl">
+          <div className="bg-[#EBEDEE] md:w-[48%] w-[90%]  p-[15px]  rounded-2xl">
             <div className="flex justify-between">
               <p>Electric Ace</p>
               <p>€69,07 NET/MONTH</p>

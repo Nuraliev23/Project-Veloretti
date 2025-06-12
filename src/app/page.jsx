@@ -13,10 +13,12 @@ export default function Home() {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/velik1.png')" }}
       >
-        <p className="max-w-[1200px]  text-[white]">VELORETTI BUSINESS</p>
-        <h1 className="max-w-[1200px] text-[70px] text-[white] ">
-          Bike lease plan for employees.
-        </h1>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start w-full">
+          <p className="max-w-[1200px]  text-[white]">VELORETTI BUSINESS</p>
+          <h1 className="max-w-[1200px] text-[70px] text-[white] ">
+            Bike lease plan for employees.
+          </h1>
+        </div>
       </section>
       <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
         <Image
@@ -40,11 +42,11 @@ export default function Home() {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/velik2.png')" }}
       >
-        <div className="w-[30%] flex flex-col gap-[16px]">
-          <h2 className="max-w-[1200px] text-[40px] text-[white] ">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start">
+        <h2 className=" text-[40px] text-[white] w-[50%] ">
             Service, maintenance and insurance
           </h2>
-          <p className="max-w-[1200px]  text-[white]">
+          <p className="  text-[white] w-[50%]">
             The lease includes an all-in service package. Throughout the entire
             36 months, you are fully insured against damage, theft and
             maintenance. In addition, you always have access to roadside
@@ -112,7 +114,7 @@ export default function Home() {
           alt="man"
         />
       </section>
-      <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
+      <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row gap-[24px]">
         <div className="bg-[#EBEDEE] w-[48%] p-[15px]">
           <div className="flex justify-between">
             <p>Electric Ace</p>

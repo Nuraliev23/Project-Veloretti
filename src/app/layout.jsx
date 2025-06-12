@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
         {children}
         <footer>
           <section className="bg-[#3d3c3c] text-[white] py-[32px]">
-            <div className="flex max-w-[1200px] mx-auto justify-between items-center">
+            <div className="md:flex-row flex max-w-[1200px] mx-auto justify-between items-center flex-col gap-[16px]">
               <p className="md:w-[60%] w-[90%]">
                 Ready to take the Electric Ivy or Ace for a spin? Electric test
                 rides are now available in Amsterdam, Amstelveen, Abcoude,

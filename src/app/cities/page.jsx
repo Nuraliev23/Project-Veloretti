@@ -12,14 +12,18 @@ const Cities = () => {
         className="w-full h-[100vh] bg-cover bg-center flex flex-col gap-[16px] items-start justify-center "
         style={{ backgroundImage: "url('/velik3.png')" }}
       >
-        <p className="max-w-[1200px]  text-[white]">VELORETTI </p>
-        <h1 className="max-w-[1200px] text-[70px] text-[white] ">City bikes</h1>
-        <p className="max-w-[1200px]  text-[white]">VELORETTI </p>
+        <div className="max-w-[1200px] mx-auto flex flex-col items-start justify-start text-start w-full">
+          <p className="max-w-[1200px]  text-[white]">VELORETTI </p>
+          <h1 className="max-w-[1200px] text-[70px] text-[white] ">
+            City bikes
+          </h1>
+          <p className="max-w-[1200px]  text-[white]">VELORETTI </p>
+        </div>
       </section>
       <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
         <div className="flex flex-col gap-[16px] md:w-[60%] w-[90%] mx-auto">
           <h2 className="text-[50px] text-center">Forever Forward.</h2>
-          <div className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
+          <div className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col gap-[16px] md:flex-row">
             <Image
               className="md:w-[48%] w-[90%]"
               src={zin}
@@ -37,8 +41,8 @@ const Cities = () => {
           </div>
         </div>
       </section>
-      <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
-        <div className="bg-[#EBEDEE] w-[48%] p-[15px]">
+      <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row gap-[24px]">
+        <div className="bg-[#EBEDEE] md:w-[48%] w-[90%] p-[15px]">
           <div className="flex justify-between">
             <p>Electric Ace</p>
             <p>€69,07 NET/MONTH</p>
@@ -51,7 +55,7 @@ const Cities = () => {
             alt="man"
           />
         </div>
-        <div className="bg-[#EBEDEE] w-[48%] p-[15px]">
+        <div className="bg-[#EBEDEE] md:w-[48%] w-[90%] p-[15px]">
           <div className="flex justify-between">
             <p>Electric Ace</p>
             <p>€69,07 NET/MONTH</p>
@@ -67,7 +71,7 @@ const Cities = () => {
       </section>
 
       <section className="flex max-w-[1200px] mx-auto justify-between my-[80px] items-center flex-col md:flex-row">
-        <div className=" w-[48%] p-[15px]">
+        <div className="md:w-[48%] w-[90%] p-[15px]">
           <Image
             className="md:w-[70%] w-[90%] mx-auto"
             src={zin4}
@@ -76,7 +80,7 @@ const Cities = () => {
             alt="man"
           />
         </div>
-        <div className="w-[48%] p-[15px]">
+        <div className="md:w-[48%] w-[90%] p-[15px]">
           <p>
             Whether you like it easy or fast, we got both. Our men's range of
             bicycles combine modern clean design with great quality, so they're
